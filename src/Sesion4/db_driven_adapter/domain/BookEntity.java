@@ -10,6 +10,10 @@ import Sesion4.core.domain.Book;
 
 @Entity
 public class BookEntity {
+	public BookEntity() {
+		super();
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
